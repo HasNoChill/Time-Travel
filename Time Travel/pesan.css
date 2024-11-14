@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Volkhov"; */
+}
+
+nav {
+  background: white;
+  display: flex;
+  /* height: 1440px;
+  width: 100%; */
+  justify-content: space-between;
+  /* padding: 1rem 2rem; */
+  margin: 20px;
+  border-radius: 10px;
+  top: 0;
+  position: sticky;
+}
+
+h1 {
+  position:static;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: left: 3rem;
+  font-size: large;
+  text-align: left;
+}
+
+.TimeTravel {
+     display: flex;
+     justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+}
+
+nav div img {
+  width: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #191919;
+  font-weight: 500;
+  padding: 8px 0;
+  transition: all;
+  transition-duration: 1ms;
+  border-bottom: 1px solid rgba(255, 68, 0, 0);
+}
+
+.login1 {
+  color: white;
+  background-color: #5052eb;
+  border:#191919;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Cari {
+ color: white;
+  background-color: #5052eb;
+  border:#191919;
+  font-family: Poppins;
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Logo {
+  display: flex;
+  gap: 10px;
+}
+
+.pesan1{
+  /* background: red; */
+  background: linear-gradient(to top, #ffff, #f8dec8);
+  /* width: 100%; */
+  height: 73vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 20px;
+  font-family: Volkhov;
+  font-size: large;
+}
+
+.form-container{
+    background-color: white;
+    width: 70% ;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+select {
+  background-color: #d9d9d9;
+  width: 300px;
+  padding: 10px ;
+  margin: 8px ;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  display: flex;
+}
+
+div {
+    font-family: Poppins;
+    font-weight: bolder;
+    padding: 12px;
+}
+
+.form-group {
+gap: 10px;
+padding: 0px;
+margin-right: 60px;
+}
+
+
+
+.form-row {
+  display: flex;
+}
+
+.submit-btn{
+  margin-left: 30px;
+  color: white;
+  background-color: #5052eb;
+  border:#191919;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.submit-btn {
+  text-transform: capitalize;
+  width: 200px;
+  height: 35px;
+}
